@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=c++11 -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cuda_vector_sum-test.dir/cuda_vector_sum-test_generated_cuda-vector-sum-test.cu.o  -o cuda_vector_sum-test /usr/local/cuda/lib/libcudart_static.a -Wl,-rpath,/usr/local/cuda/lib 

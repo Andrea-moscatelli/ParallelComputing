@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/greeter.cpp
+greeter.h
+/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/greeter.h
+iostream
+-
+
+/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/greeter.h
+string
+-
+

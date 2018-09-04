@@ -1,0 +1,5 @@
+/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug/CMakeFiles/cuda_vector_sum-test.dir
+/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug/CMakeFiles/cuda_gpu_info-test.dir
+/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug/CMakeFiles/cuda_hello-test.dir

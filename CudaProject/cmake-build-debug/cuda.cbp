@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cuda"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cuda_vector_sum-test">
+				<Option output="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug/cuda_vector_sum-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/kernels"/>
+					<Add directory="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/utility"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 cuda_vector_sum-test"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cuda_vector_sum-test/fast">
+				<Option output="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug/cuda_vector_sum-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/kernels"/>
+					<Add directory="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/utility"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 cuda_vector_sum-test/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cuda_gpu_info-test">
+				<Option output="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug/cuda_gpu_info-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/kernels"/>
+					<Add directory="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/utility"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 cuda_gpu_info-test"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cuda_gpu_info-test/fast">
+				<Option output="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug/cuda_gpu_info-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/kernels"/>
+					<Add directory="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/utility"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 cuda_gpu_info-test/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cuda_hello-test">
+				<Option output="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug/cuda_hello-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/kernels"/>
+					<Add directory="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/utility"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 cuda_hello-test"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cuda_hello-test/fast">
+				<Option output="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug/cuda_hello-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/kernels"/>
+					<Add directory="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/utility"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 cuda_hello-test/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j8 -f &quot;/Users/bertini/Documents/presentazioni/lezioni/Parallel\ Computing\ 2016-2017/workspace/cuda-hello-world/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug/CMakeFiles/cuda_gpu_info-test.dir/cuda_gpu_info-test_generated_gpu-info.cu.o">
+			<Option target="cuda_gpu_info-test"/>
+		</Unit>
+		<Unit filename="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug/CMakeFiles/cuda_hello-test.dir/cuda_hello-test_generated_main.cu.o">
+			<Option target="cuda_hello-test"/>
+		</Unit>
+		<Unit filename="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cmake-build-debug/CMakeFiles/cuda_vector_sum-test.dir/cuda_vector_sum-test_generated_cuda-vector-sum-test.cu.o">
+			<Option target="cuda_vector_sum-test"/>
+		</Unit>
+		<Unit filename="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/common.h">
+			<Option target="cuda_vector_sum-test"/>
+			<Option target="cuda_gpu_info-test"/>
+			<Option target="cuda_hello-test"/>
+		</Unit>
+		<Unit filename="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/cuda-vector-sum-test.cu">
+			<Option target="cuda_vector_sum-test"/>
+		</Unit>
+		<Unit filename="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/gpu-info.cu">
+			<Option target="cuda_gpu_info-test"/>
+		</Unit>
+		<Unit filename="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/greeter.cpp">
+			<Option target="cuda_hello-test"/>
+		</Unit>
+		<Unit filename="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/greeter.h">
+			<Option target="cuda_hello-test"/>
+		</Unit>
+		<Unit filename="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/main.cu">
+			<Option target="cuda_hello-test"/>
+		</Unit>
+		<Unit filename="/Users/bertini/Documents/presentazioni/lezioni/Parallel Computing 2016-2017/workspace/cuda-hello-world/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
