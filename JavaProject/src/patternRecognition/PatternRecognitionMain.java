@@ -52,8 +52,8 @@ public class PatternRecognitionMain {
 			// Sequential method
 			System.out.println("Sequential version ongoing......");
 			long start = System.currentTimeMillis();
-			 PatternRecognitionResult bestSad = new PatternRecognitionResult(0, 0, 0);
-//			PatternRecognitionResult bestSad = patternRecognition.getBestSadSequential(series);
+//			 PatternRecognitionResult bestSad = new PatternRecognitionResult(0, 0, 0);
+			PatternRecognitionResult bestSad = patternRecognition.getBestSadSequential(series);
 			long end = System.currentTimeMillis();
 			resultSequential[row] = new Pair<PatternRecognitionResult, Long>(bestSad, end - start);
 
